@@ -1,0 +1,42 @@
+.banner_section{
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+.banner_contec{
+    margin-top: 40px;
+}
+
+.banner_title{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #111430;
+}
+.banner-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.banner_button{
+    background: #111430 !important;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .banner_section{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 30px 0 !important;
+    }
+    .banner_contec{
+        margin-top: 10px;
+    }
+    .banner_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+ }
